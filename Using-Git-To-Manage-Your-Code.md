@@ -90,10 +90,85 @@ We are going to practice this right now!
 
 10. Check the status of changes you have made.
 
-      In your terminal, type the following command:
+      In your terminal, execute the following command:
 
-      git status
+         git status
+
+      After you run the command, you should see a similar output on your terminal:
+
+      <img src="assets/git-status.png">
 
       git status is a command that shows you the current changes that are made on your local repository. It can be extremely helpful to manage your own personal progress when working on different projects.
 
-11. 
+11. Add your changes to be staged to commit to the main repository.
+
+      You have made some changed, now it is time to stage them to get ready to merge them into the main branch.
+
+      In your terminal, execute the following commands:
+
+         git add hello-world.txt
+
+         git status
+
+      After you run the command, you should see a similar output on your terminal:
+
+      <img src="assets/git-add.png">
+
+      git add is a command that shows you the current staged changes on your local repository. This command is vital to making sure specific changes are added and others are not.
+
+12. Commit your changes.
+
+      Now that you have staged your changes, it is time to commit them!
+
+      In your terminal, execute the following command:
+
+         git commit -m "Changed hello-world text."
+
+      After you run the command, you should see a similar output on your terminal:
+
+      <img src="assets/git-commit.png">
+
+      Now there is a chance some of you may have messed up somewhere and are kind of freaking out. There is a fix for this!
+
+      If you want to undo your commits, execute the following command in your terminal:
+
+         git reset --soft HEAD^
+
+      This command essentially allows you to keep your modified changes while undoing any commits.
+
+      If you want to go back x amount of commits, execute the following command in your terminal:
+
+         git reset --soft HEAD~x
+
+      Make sure to replace x with the number of commits you want to revert back to.
+
+      If you want to just reset everything back to normal, removing any and all changes, execute the following command in your terminal:
+
+         git reset --hard HEAD^
+
+      One last note, if you are on a Windows machine, you must put HEAD in quotes, for example:
+
+         git reset --soft "HEAD^"
+
+13. Push your changes!
+
+      We are almost to the finish line! Once you are 100% all ready to go, execute the following command in your terminal:
+
+         git push
+
+      After you run the command, you should see a similar output on your terminal:
+
+      <img src="assets/git-push.png">
+
+      Now, let's take a look at your github repository! You should now see new changes have been made and your main repository has been updated!
+
+
+## Review
+
+We did a lot in this lesson! To summarize:
+
+- A repository is a folder that contains all of the files for a project.
+- `git clone` allows you to _clone_ a repository from another source like GitHub for example.
+- `git add` allows you to stage changes you make in a local repository.
+- `git commit` allows you to commit changes. Don't forget to add `-m` and a comment in quotes after to summarize your commit.
+- `git push` allows you to push your changes up to wherever the main repository is stored.
