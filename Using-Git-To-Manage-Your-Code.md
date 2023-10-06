@@ -41,7 +41,34 @@ We are going to practice this right now!
 
 <img src="assets/copy-button.png">
 
-6. Open up a terminal and type the following command:
+6. Open up a terminal
+   
+   For Windows:
+
+   - Press Win + R to open the Run dialog.
+   - Type cmd and press Enter.
+
+   For MacOS
+
+   -  You can find Terminal in the Utilities folder within the Applications folder or use Spotlight or press Cmd + Space, then type "Terminal".
+
+   For Linux:
+
+   - Open a terminal emulator (e.g., GNOME Terminal, Konsole, xterm).
+
+7. Make sure your current working directory is Desktop
+
+   Enter the following command into your terminal:
+
+   For Windows:
+
+   - cd Desktop
+
+   For MacOS and Linux:
+
+   - cd ~/Desktop
+
+8. Enter the following command:
 
    git clone -copied url-
 
@@ -49,6 +76,24 @@ We are going to practice this right now!
 
    Whenever you want to execute a git command, always preface the command with 'git'. Just now, we executed the 'git clone' command which allows us to clone a repository from the internet. There are several ways you can go about this like through SSH but for the sake of this tutorial, we will be using HTTPS.
 
-   Once you execute the command, you will be prompted to enter your github username and password. Do so.
+   Once you execute the command, you will be prompted to enter your github username and password. Do so. Do not close your terminal when you are done.
 
    Congradulations on executing a git command!
+
+   If you open up a visual file explorer, you will see a new folder with the same name as your forked repository. This is because you have created a local instance of your repository that is stored in the cloud through GitHub. You can make changes to it and update the main repository in the cloud through more Git commands!
+
+9. Open up the hello-world.txt file located in your local repo.
+
+   You can do this either through the command line or through a visual file explorer. For the sake of simplicity, we will just open the file with a visual file explorer.
+
+   Once the hello-world.txt file is opened, replace the text in it with 'Hello World!' and save the file.
+
+10. Check the status of changes you have made.
+
+      In your terminal, type the following command:
+
+      git status
+
+      git status is a command that shows you the current changes that are made on your local repository. It can be extremely helpful to manage your own personal progress when working on different projects.
+
+11. 
