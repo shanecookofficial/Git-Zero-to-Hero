@@ -27,19 +27,19 @@ We are going to practice this right now!
 1. Go to [this repository](https://github.com/shanecookofficial/Git-Zero-to-Hero).
 2. Fork the repository by clicking the Fork button.
 
-<img src="assets/fork-button.png">
+<img src="assets/fork-button.png" width=50%>
 
 3. Change the name of the repository and make sure your username is selected as the owner. Click create fork when you are done. You have now created your a repository! A fork essentially is a copy of a repository.
 
-<img src="assets/create-fork.png">
+<img src="assets/create-fork.png" width=50%>
 
 4. Your screen should now have the name of your new repository instead of Git-Zero-to-Hero. If it does, click the green code button. A drop down should open below the button.
 
-<img src="assets/code-button.png">
+<img src="assets/code-button.png" width=50%>
 
 5. Make sure HTTPS has an underline indicating it has been selected. If you are working on a smaller screen, it might be darkened grey. Once you have verified it is selected, click the copy button.
 
-<img src="assets/copy-button.png">
+<img src="assets/copy-button.png" width=50%>
 
 6. Open up a terminal
    
@@ -96,7 +96,7 @@ We are going to practice this right now!
 
       After you run the command, you should see a similar output on your terminal:
 
-      <img src="assets/git-status.png">
+      <img src="assets/git-status.png" width=50%>
 
       git status is a command that shows you the current changes that are made on your local repository. It can be extremely helpful to manage your own personal progress when working on different projects.
 
@@ -112,7 +112,7 @@ We are going to practice this right now!
 
       After you run the command, you should see a similar output on your terminal:
 
-      <img src="assets/git-add.png">
+      <img src="assets/git-add.png" width=50%>
 
       git add is a command that shows you the current staged changes on your local repository. This command is vital to making sure specific changes are added and others are not.
 
@@ -126,7 +126,7 @@ We are going to practice this right now!
 
       After you run the command, you should see a similar output on your terminal:
 
-      <img src="assets/git-commit.png">
+      <img src="assets/git-commit.png" width=50%>
 
       Now there is a chance some of you may have messed up somewhere and are kind of freaking out. There is a fix for this!
 
@@ -158,7 +158,7 @@ We are going to practice this right now!
 
       After you run the command, you should see a similar output on your terminal:
 
-      <img src="assets/git-push.png">
+      <img src="assets/git-push.png" width=50%>
 
       Now, let's take a look at your github repository! You should now see new changes have been made and your main repository has been updated!
 
