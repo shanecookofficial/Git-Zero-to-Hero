@@ -63,4 +63,28 @@ Some IDEs have the functionality to enhance rebasing with additional visual cues
 ### Pull Requests
 In a working environment, you will not be able to merge your changes into the main branch without additional approval. That is where Pull Requests fit in.
 
-A pull request essentially is a request for someone to approve your changes and 'pull' them into the main branch.
+A pull request essentially is a request for someone to approve your changes and 'pull' them into the main branch. If you have protections enabled on the repository you are working on, you will not be able to merge your changes without having a pull request approved.
+
+Make some more changes in the hello-world.txt file. Stage those changes, commit them, and push them all while inside of the branch you created.
+
+Go to your forked repository in GitHub. Your page should look something like this:
+
+<img src="assets/pull-request.png">
+
+Click the green "Compare & pull request" button. A new screen should load that looks something like this:
+
+<img src="assets/pull-request-page.png">
+
+There is a lot going on here so we are just going to focus on the basics.
+
+The title of the pull request is right above the 'Write' tab. In my example image, it says 'Completed adding information up to Pull Requests'.
+
+The comment or summary of the pull request is located in the section where it says 'Leave a comment'. This section can be very helpful with documenting your changes. You should always leave a detailed comment to help you and those you work with in the future track the progress of changes in the project. Make a comment in your pull request.
+
+Finally, there is the green 'Create pull request' button. That is what we are going to click to create your pull request. Click the button once you have added or edited an appropriate title and added a comment. You will be directed to a new screen that looks something like this:
+
+<img src="assets/merge-pull-request.png">
+
+My pull request summary screen will look a little different than yours because I have branch protections on my repository. This repository is a Git tutorial repository and I am open to accepting contributions but I want those contributions approved before they are added.
+
+Once you are ready to merge your pull request, click the Merge pull request button.
